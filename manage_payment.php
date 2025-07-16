@@ -12,7 +12,7 @@ if (isset($_GET['id'])) {
 		<div id="msg"></div>
 		<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
 		<div class="form-group">
-			<label for="" class="control-label">No Curso/Estudiante</label>
+			<label for="" class="control-label">Curso/Estudiante</label>
 			<select name="ef_id" id="ef_id" class="custom-select input-sm select2">
 				<option value=""></option>
 				<?php
@@ -35,7 +35,7 @@ if (isset($_GET['id'])) {
 			<input type="text" class="form-control text-right" name="amount" value="<?php echo isset($amount) ? number_format($amount) : 0 ?>" required>
 		</div>
 		<div class="form-group">
-			<label for="" class="control-label">Observaciones</label>
+			<label for="" class="control-label">Observación</label>
 			<textarea name="remarks" id="" cols="30" rows="3" class="form-control" required=""><?php echo isset($remarks) ? $remarks : '' ?></textarea>
 		</div>
 	</form>

@@ -44,11 +44,18 @@ while ($row = $payments->fetch_array()) {
 	}
 </style>
 <div class="container-fluid">
-	<p class="text-center"><b><?php echo $_GET['pid'] == 0 ? "Factura ConfiguroWeb" : 'Recibo de Pago' ?></b></p>
-	<hr>
+    <div style="display: flex; align-items: center; justify-content: space-between;">
+        <div>
+            <img src="assets/uploads/logo.png" alt="Logo Escuela" style="width: 100px;">
+        </div>
+        <div class="text-center" style="flex-grow: 1;">
+            <p><b><?php echo $_GET['pid'] == 0 ? "Escuela Particular de Educación Básica 'Despertar Ecuatoriano'" : 'Recibo de Pago' ?></b></p>
+        </div>
+    </div>
+    <hr>
 	<div class="flex">
 		<div class="w-50">
-			<p>No de Curso: <b><?php echo $ef_no ?></b></p>
+			<p>Curso: <b><?php echo $ef_no ?></b></p>
 			<p>Estudiante: <b><?php echo ucwords($sname) ?></b></p>
 			<p>Curso/Nivel: <b><?php echo $class ?></b></p>
 		</div>
@@ -56,7 +63,7 @@ while ($row = $payments->fetch_array()) {
 			<div class="w-50">
 				<p>Fecha de Pago: <b><?php echo isset($pay_arr[$_GET['pid']]) ? date("M d,Y", strtotime($pay_arr[$_GET['pid']]['date_created'])) : '' ?></b></p>
 				<p>Monto de Pago: <b><?php echo isset($pay_arr[$_GET['pid']]) ? number_format($pay_arr[$_GET['pid']]['amount'], 2) : '' ?></b></p>
-				<p>Observación: <b><?php echo isset($pay_arr[$_GET['pid']]) ? $pay_arr[$_GET['pid']]['remarks'] : '' ?></b></p>
+				<p>Obervación: <b><?php echo isset($pay_arr[$_GET['pid']]) ? $pay_arr[$_GET['pid']]['remarks'] : '' ?></b></p>
 			</div>
 		<?php endif; ?>
 	</div>

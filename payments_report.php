@@ -19,11 +19,11 @@ $month = isset($_GET['month']) ? $_GET['month'] : date('Y-m');
                             <tr>
                                 <th class="text-center">#</th>
                                 <th class="">Fecha</th>
-                                <th class="">ID</th>
-                                <th class="">No Curso</th>
-                                <th class="">Nombre</th>
-                                <th class="">Monto Pagado</th>
-                                <th>Observaciones</th>
+                                <th class="">N° Identidad</th>
+                                <th class="">Curso</th>
+                                <th class="">Nombres y Apellidos</th>
+                                <th class="">Monto Cancelado</th>
+                                <th>Observación</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -38,7 +38,7 @@ $month = isset($_GET['month']) ? $_GET['month'] : date('Y-m');
                                     <tr>
                                         <td class="text-center"><?php echo $i++ ?></td>
                                         <td>
-                                            <p> <?php echo date("M d,Y H:i A", strtotime($row['id_no'])) ?></p>
+                                            <p> <?php echo date("M d,Y H:i A", strtotime($row['date_created'])) ?></p>
                                         </td>
                                         <td>
                                             <p> <?php echo $row['id_no'] ?></p>

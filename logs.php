@@ -50,8 +50,8 @@
 								<tr>
 									<th class="text-center">#</th>
 									<th class="">Fecha/Hora</th>
-									<th class="">ID #</th>
-									<th class="">Nombre</th>
+									<th class="">N° Identidad</th>
+									<th class="">Nombres y Apellidos</th>
 									<th class="">Tipo</th>
 									<th class="">Tipo de Registro</th>
 								</tr>
@@ -135,7 +135,7 @@
 
 	img {
 		max-width: 100px;
-		max-height: :150px;
+		max-height: 150px;
 	}
 </style>
 <noscript>

@@ -4,9 +4,9 @@
 
 
 <!-- Google Fonts -->
-<title>Gestión Pagos</title>
+<title>Sistema de Pago </title>
 <link rel="stylesheet" href="assets/font-awesome/css/all.min.css">
-<link rel="icon" type="image/x-icon" href="assets/uploads/favicon.png">
+<link rel="icon" type="image/x-icon" href="assets/uploads/graduation.png">
 
 
 <!-- Vendor CSS Files -->

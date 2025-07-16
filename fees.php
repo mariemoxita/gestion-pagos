@@ -33,7 +33,7 @@
 					<div class="card-header">
 						<b>Pagos de Estudiantes </b>
 						<span class="float:right"><a class="btn btn-primary col-sm-6 col-md-2 float-right" href="javascript:void(0)" id="new_fees">
-								<i class="fa fa-plus"></i> Pagos
+								<i class="fa fa-plus"></i> Realizar Pago
 							</a></span>
 					</div>
 					<div class="card-body">
@@ -41,9 +41,9 @@
 							<thead>
 								<tr>
 									<th class="text-center">#</th>
-									<th class="">ID No.</th>
-									<th class="">No. Curso</th>
-									<th class="">Nombre</th>
+									<th class="">N° Identidad</th>
+									<th class="">Curso</th>
+									<th class="">Nombres y Apellidos</th>
 									<th class="">Tarifa</th>
 									<th class="">Pago</th>
 									<th class="">Balance</th>
@@ -108,7 +108,7 @@
 
 	img {
 		max-width: 100px;
-		max-height: :150px;
+		max-height: 150px;
 	}
 </style>
 

@@ -12,11 +12,11 @@ if (isset($_GET['id'])) {
 		<div id="msg"></div>
 		<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
 		<div class="form-group">
-			<label for="" class="control-label">Nº Matrícula/ Nº Curso</label>
+			<label for="" class="control-label">Curso</label>
 			<input type="text" class="form-control" name="ef_no" value="<?php echo isset($ef_no) ? $ef_no : '' ?>" required>
 		</div>
 		<div class="form-group">
-			<label for="" class="control-label">Estudiante</label>
+			<label for="" class="control-label">Estudiantes</label>
 			<select name="student_id" id="student_id" class="custom-select input-sm select2">
 				<option value=""></option>
 				<?php
@@ -28,7 +28,7 @@ if (isset($_GET['id'])) {
 			</select>
 		</div>
 		<div class="form-group">
-			<label for="" class="control-label">Curso</label>
+			<label for="" class="control-label">Aula</label>
 			<select name="course_id" id="course_id" class="custom-select input-sm select2">
 				<option value=""></option>
 				<?php

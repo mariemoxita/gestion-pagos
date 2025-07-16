@@ -33,7 +33,7 @@
 					<div class="card-header">
 						<b>Lista de Estudiantes </b>
 						<span class="float:right"><a class="btn btn-primary col-md-1 col-sm-6 float-right" href="javascript:void(0)" id="new_student">
-								<i class="fa fa-plus"></i> Estudiante
+								<i class="fa fa-plus"></i> Registrar Estudiante
 							</a></span>
 					</div>
 					<div class="card-body">
@@ -41,9 +41,9 @@
 							<thead>
 								<tr>
 									<th class="text-center">#</th>
-									<th class="">ID No.</th>
-									<th class="">Nombre</th>
-									<th class="">Información</th>
+									<th class="">N° Identidad</th>
+									<th class="">Nombres y Apellidos</th>
+									<th class="">Información Personal</th>
 									<th class="text-center">Acción</th>
 								</tr>
 							</thead>
@@ -63,7 +63,7 @@
 										</td>
 										<td class="">
 											<p>Correo: <?php echo $row['email'] ?></p>
-											<p># Móvil: <?php echo $row['contact'] ?></p>
+											<p>Contacto: <?php echo $row['contact'] ?></p>
 											<p>Dirección: <?php echo $row['address'] ?></p>
 										</td>
 										<td class="text-center">
@@ -94,7 +94,7 @@
 
 	img {
 		max-width: 100px;
-		max-height: :150px;
+		max-height: 150px;
 	}
 </style>
 

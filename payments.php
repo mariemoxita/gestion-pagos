@@ -10,9 +10,9 @@
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header">
-						<b>Pagps </b>
+						<b>Pagos </b>
 						<span class="float:right"><a class="btn btn-primary col-md-1 col-sm-6 float-right" href="javascript:void(0)" id="new_payment">
-								<i class="fa fa-plus"></i> Pago
+								<i class="fa fa-plus"></i>  Nuevo Pago
 							</a></span>
 					</div>
 					<div class="card-body">
@@ -21,10 +21,10 @@
 								<tr>
 									<th class="text-center">#</th>
 									<th class="">Fecha</th>
-									<th class="">ID No.</th>
-									<th class="">No Curso</th>
-									<th class="">Nombre</th>
-									<th class="">Monto Pagado</th>
+									<th class="">N° Identidad</th>
+									<th class="">Curso</th>
+									<th class="">Nombres y Apellidos</th>
+									<th class="">Monto Cancelado</th>
 									<th class="text-center">Acción</th>
 								</tr>
 							</thead>
@@ -91,7 +91,7 @@
 
 	img {
 		max-width: 100px;
-		max-height: :150px;
+		max-height: 150px;
 	}
 </style>
 
